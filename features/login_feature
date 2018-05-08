@@ -1,2 +1,7 @@
 Feature: Basic Authentication
 
+Scenario: User with valid credential can login
+ Given I open a browser
+ When I login with "" username and "" password
+ Then I should see the "" message
+
